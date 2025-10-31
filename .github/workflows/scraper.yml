@@ -1,0 +1,38 @@
+name: Job Market Analysis
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 6 * * 1'  # Weekly on Monday at 6 AM
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.11'
+        
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+        
+    - name: Set up Chrome
+      uses: browser-actions/setup-chrome@v1
+      
+    - name: Run job market analysis
+      run: |
+        python run.py
+        
+    - name: Upload results
+      uses: actions/upload-artifact@v3
+      with:
+        name: job-market-data
+        path: data/
+        retention-days: 30

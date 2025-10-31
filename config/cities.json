@@ -1,0 +1,32 @@
+[
+    {
+        "name": "Casablanca",
+        "country_code": "ma",
+        "language": "fr",
+        "region": "Grand Casablanca"
+    },
+    {
+        "name": "Rabat",
+        "country_code": "ma", 
+        "language": "fr",
+        "region": "Rabat-Salé-Kénitra"
+    },
+    {
+        "name": "Marrakech",
+        "country_code": "ma",
+        "language": "fr", 
+        "region": "Marrakech-Safi"
+    },
+    {
+        "name": "Agadir",
+        "country_code": "ma",
+        "language": "fr",
+        "region": "Souss-Massa"
+    },
+    {
+        "name": "Tangier",
+        "country_code": "ma",
+        "language": "fr",
+        "region": "Tanger-Tétouan-Al Hoceïma"
+    }
+]
