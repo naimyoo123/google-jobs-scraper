@@ -1,12 +1,20 @@
 # Google Jobs Market Analyzer
 
-A professional web scraping and data analysis tool for job market intelligence.
+## Professional Market Intelligence Platform
 
-## 🚀 Features
+A comprehensive tool for job market analysis and employment trend monitoring.
 
-- **Comprehensive Data Collection**: Scrapes job listings from multiple cities
-- **Market Analysis**: Generates detailed reports on job market trends
-- **Data Quality Metrics**: Tracks scraping success rates and data completeness
-- **Professional Reporting**: Creates executive summaries and detailed analyses
+### Features
+- Multi-region data collection
+- Real-time market analytics  
+- Professional report generation
+- Trend analysis and visualization
 
-## 📊 Project Structure
+### Technology Stack
+- Python 3.11+
+- Selenium WebDriver
+- Pandas for data analysis
+- GitHub Actions for automation
+
+---
+*Academic and portfolio project - Market research tool*
